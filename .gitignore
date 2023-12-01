@@ -1,0 +1,6 @@
+# Ignore uploads directory
+uploads/
+
+# Ignore Node.js modules
+node_modules/
+
