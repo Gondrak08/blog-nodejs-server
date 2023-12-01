@@ -37,6 +37,12 @@ const dbConnection = mysql.createConnection(dbConfig);
 module.exports = dbConnection;
 ```
 
+### Iniciando servidor
+
+```
+node index.js
+```
+
 ## Frontend
 
 Você pode encontrar o frontend desta aplicação no [repositório](https://github.com/Gondrak08/blog-platform)
