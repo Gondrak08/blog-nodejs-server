@@ -14,9 +14,27 @@
 
 ## Como usar
 
+### Instalando aplicação.
+
 ```
 npm i
-node server.js
+```
+
+### Conectando ao Banco de dados
+
+Lembre-se de configurar a sua conexão ao banco de dados Mysql.
+Em `connection.js`
+
+```javascript
+const mysql = require("mysql");
+const dbConfig = {
+  host: "localhost",
+  user: "your db user",
+  password: "your db password",
+  database: "your db",
+};
+const dbConnection = mysql.createConnection(dbConfig);
+module.exports = dbConnection;
 ```
 
 ## Frontend
